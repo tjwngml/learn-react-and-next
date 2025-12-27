@@ -1,5 +1,11 @@
 import './App.css'
+import Body from './components/Body'
 import Button from './components/Button'
+import Footer from './components/Footer'
+import Header from './components/Header'
+
+
+
 
 function App() {
   
@@ -7,8 +13,9 @@ function App() {
 
   return (
     <>
-     <Button text={"리액트"} color={"red"}/>
-  
+    <Header/>
+    <Body/>
+    <Footer/>
     </>
   )
 }
