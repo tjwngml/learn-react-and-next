@@ -2,10 +2,11 @@ import  "./Button.css";
 
 
 
-export default function Button({ text, color}){
-  console.log(text);
-  console.log(color);
+export default function Button(props){
 
+ const { text, color } = props;
+
+  console.log(props);
 
   return(
     <>
