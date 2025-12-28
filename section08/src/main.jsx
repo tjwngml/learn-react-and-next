@@ -6,5 +6,5 @@ import B from "./exam/B.jsx"
 
 createRoot(document.getElementById('root')).render(
     
-    <B/>
+    <App/>
 );
